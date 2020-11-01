@@ -1,0 +1,60 @@
+.section__card {
+  overflow: scroll;
+  background: #ffc;
+  display: block;
+  height: 200px;
+  width: 200px;
+  min-width: 200px;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+.card__content {
+  min-width: 30px;
+  min-height: 40px;
+}
+.card__title {
+  margin-bottom: 1em;
+}
+
+.card__description {
+  font-size:100%;
+  font-weight:normal;
+}
+
+.card__footer {
+  position: fixed;
+  right: 15px; 
+  bottom: 10px;
+}
+
+.footer__button {
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.card__content:hover,
+.footer__button:hover{
+  cursor: pointer;
+}
+
+article:nth-child(even) {
+  transform:rotate(4deg);
+  position:relative;
+  top:5px;
+}
+
+article:nth-child(3n) {
+  transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+}
+
+article:nth-child(5n) {
+  transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
