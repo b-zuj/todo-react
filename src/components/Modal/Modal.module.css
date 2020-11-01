@@ -17,9 +17,24 @@
   align-content: center;
   flex-wrap: wrap;
   background-color: #15616D;
-  color: #FFECD1;
+  color: #CDEDF6;
   margin: 100px auto;
   padding: 20px;
   width: 80%;
   border-radius: 15px;
+}
+
+.modal__button {
+  background-color: transparent;
+  border: 2px solid #CDEDF6;
+  color: #CDEDF6;
+  transition: 0.3s;
+  line-height: 24px;
+  font-size: 1.1em;
+
+  border-radius: 5px;
+}
+.modal__button:hover {
+  background-color: #CDEDF6;
+  color: #15616D;
 }

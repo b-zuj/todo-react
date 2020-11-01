@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from './Modal.module.css';
 
-const Modal = () => (
-  <div className="modal">
-    <div className="modal__content">
-      <p className="modal__p">Your new to-do must have a title!</p> <br></br>
-      <button className="modal__button">Close</button>
+const Modal = ({ toggleModal }) => (
+  <div className={styles.modal}>
+    <div className={styles.modal__content}>
+      <p className={styles.modal__p}>Your new to-do must have a title!</p> <br></br>
+      <button className={styles.modal__button} onClick={toggleModal}>Close</button>
     </div>
   </div>
 );
