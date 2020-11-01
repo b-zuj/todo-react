@@ -1,7 +1,7 @@
 .body__header {
-  background-color: #5EB1BF;
   display: block;
+  padding: 2em 0 1em;
   width: 100%;
   text-align: center;
-  padding: 2em 0 1em;
+  background-color: #5EB1BF;
 }
