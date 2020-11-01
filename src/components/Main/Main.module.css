@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.main {
+  padding-top: 35px;
+  padding-left: 0;
+  font-family: 'Shadows Into Light', 'Open Sans' , Sans-Serif;
+}
+
+.main__header {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 30px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  font-size: 1.6em;
+  background: rgba(255,255,200,0.6);
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+.main__section___toDoTasks header,
+.main__section___doneTasks header {
+  display: block;
+  margin: 20px 20px;
+  padding: 8px 30px;
+  width: fit-content;
+  min-width: 60px;
+  height: fit-content;
+  font-size: 1.5em;
+  background: rgba(255,255,200,0.6);
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+.main__section___doneTasks article {
+  background: #CDEDF6;
+}
+
+.main__section___doneTasks section {
+  text-decoration: line-through;
+}
+
+.main__section___toDoTasks,
+.main__section___doneTasks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
